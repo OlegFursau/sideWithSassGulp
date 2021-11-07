@@ -1,0 +1,43 @@
+/*header import*/
+@import 'blocks/vars.scss';
+@import 'vendor/reset.scss';
+@import 'blocks/page.scss';
+@import 'blocks/container.scss';
+
+html{
+    font-size: 62.5%;
+}
+
+*,
+*   ::before,
+    ::after{
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+}
+
+body {
+    background-color: #181818;
+    font-size: 1.4rem;
+    color: $white;
+    font-family:  system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,
+    "Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol",
+     "Noto Color Emoji";;
+}
+
+/*import*/
+@import 'blocks/header.scss';
+@import 'blocks/sitebar.scss';
+@import 'blocks/main.scss';
+@import 'blocks/prof.scss';
+
